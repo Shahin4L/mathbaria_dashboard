@@ -1,0 +1,404 @@
+
+<h2 class="sr-only">মঠবাড়িয়া উপজেলা সম্পূর্ণ তথ্য প্রোফাইল — জনসংখ্যা, শিক্ষা, কৃষি, স্বাস্থ্য, অর্থনীতি ও অবকাঠামো</h2>
+
+<style>
+.section-title{font-size:15px;font-weight:500;color:var(--color-text-primary);margin:0 0 12px;padding-bottom:8px;border-bottom:0.5px solid var(--color-border-tertiary);}
+.card{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:1rem 1.25rem;}
+.metric{background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:.85rem;text-align:center;}
+.metric-label{font-size:11px;color:var(--color-text-secondary);margin:0 0 4px;}
+.metric-val{font-size:20px;font-weight:500;margin:0;color:var(--color-text-primary);}
+.bar-row{display:flex;align-items:center;gap:8px;margin-bottom:10px;font-size:12px;}
+.bar-label{min-width:130px;color:var(--color-text-secondary);}
+.bar-track{flex:1;background:var(--color-border-tertiary);border-radius:4px;height:7px;}
+.bar-fill{height:100%;border-radius:4px;}
+.bar-pct{min-width:42px;text-align:right;font-weight:500;color:var(--color-text-primary);}
+.tag{display:inline-block;font-size:11px;padding:3px 10px;border-radius:20px;margin:3px 3px 3px 0;font-weight:500;}
+.info-row{display:flex;justify-content:space-between;padding:6px 0;border-bottom:0.5px solid var(--color-border-tertiary);font-size:13px;}
+.info-row:last-child{border-bottom:none;}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:1rem;}
+.grid4{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;}
+.section{margin-bottom:1.5rem;}
+.tab-nav{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:1rem;}
+.tab-btn{font-size:12px;padding:6px 14px;border-radius:20px;border:0.5px solid var(--color-border-secondary);background:var(--color-background-secondary);color:var(--color-text-secondary);cursor:pointer;font-weight:500;}
+.tab-btn.active{background:var(--color-text-primary);color:var(--color-background-primary);border-color:transparent;}
+.tab-section{display:none;}
+.tab-section.active{display:block;}
+.compare-badge{font-size:11px;padding:2px 8px;border-radius:10px;margin-left:6px;font-weight:500;}
+</style>
+
+<div style="padding:1rem 0;">
+
+<!-- Header -->
+<div style="background:var(--color-background-secondary);border-radius:var(--border-radius-lg);padding:1rem 1.25rem;margin-bottom:1.5rem;border:0.5px solid var(--color-border-tertiary);display:flex;align-items:center;gap:12px;">
+  <div style="width:44px;height:44px;border-radius:50%;background:#E1F5EE;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0;">🗺️</div>
+  <div>
+    <p style="font-size:16px;font-weight:500;margin:0;color:var(--color-text-primary);">মঠবাড়িয়া উপজেলা — সম্পূর্ণ তথ্য প্রোফাইল</p>
+    <p style="font-size:12px;color:var(--color-text-secondary);margin:0;">পিরোজপুর জেলা, বরিশাল বিভাগ | উৎস: BBS Census 2011 ও 2022, Banglapedia, Wikipedia</p>
+  </div>
+</div>
+
+<!-- Tab Navigation -->
+<div class="tab-nav">
+  <button class="tab-btn active" onclick="showTab('population')">👥 জনসংখ্যা</button>
+  <button class="tab-btn" onclick="showTab('education')">📚 শিক্ষা</button>
+  <button class="tab-btn" onclick="showTab('agriculture')">🌾 কৃষি</button>
+  <button class="tab-btn" onclick="showTab('economy')">💼 অর্থনীতি</button>
+  <button class="tab-btn" onclick="showTab('health')">🏥 স্বাস্থ্য</button>
+  <button class="tab-btn" onclick="showTab('disaster')">⚠️ দুর্যোগ</button>
+  <button class="tab-btn" onclick="showTab('infra')">🏗️ অবকাঠামো</button>
+</div>
+
+<!-- POPULATION TAB -->
+<div id="tab-population" class="tab-section active">
+  <div style="background:#E1F5EE;border-radius:var(--border-radius-md);padding:0.6rem 1rem;margin-bottom:1rem;border:0.5px solid #5DCAA5;">
+    <p style="font-size:12px;color:#085041;margin:0;">✅ ২০২২ সালের আদমশুমারির তথ্য পাওয়া গেছে — এটি বাংলাদেশের সর্বশেষ আপডেট জনগণনা।</p>
+  </div>
+
+  <div class="grid4 section">
+    <div class="metric"><p class="metric-label">জনসংখ্যা (২০২২ সেন্সাস)</p><p class="metric-val">২,৭৭,৬২৭</p></div>
+    <div class="metric"><p class="metric-label">জনসংখ্যা (২০১১)</p><p class="metric-val">২,৬২,৮৪১</p></div>
+    <div class="metric"><p class="metric-label">মোট পরিবার (২০২২)</p><p class="metric-val">৭১,০৭৫</p></div>
+    <div class="metric"><p class="metric-label">আয়তন</p><p class="metric-val">৩৪৪.২৩ কিমি²</p></div>
+  </div>
+
+  <div class="grid2 section">
+    <div class="card">
+      <p class="section-title">লিঙ্গ বিভাজন (২০১১ সেন্সাস)</p>
+      <div class="bar-row"><span class="bar-label">পুরুষ</span><div class="bar-track"><div class="bar-fill" style="width:49%;background:#185FA5;"></div></div><span class="bar-pct">১,২৮,৮৪৫</span></div>
+      <div class="bar-row"><span class="bar-label">মহিলা</span><div class="bar-track"><div class="bar-fill" style="width:51%;background:#D4537E;"></div></div><span class="bar-pct">১,৩৩,৯৯৬</span></div>
+      <p style="font-size:12px;color:var(--color-text-secondary);margin:10px 0 0;">লিঙ্গ অনুপাত: প্রতি ১০০০ পুরুষে ১,০৪০ মহিলা<br>২০২২ সালে: প্রতি ১০০ মহিলায় ৮৯.৭৯ পুরুষ</p>
+
+      <div style="position:relative;height:160px;margin-top:12px;">
+        <canvas id="genderChart2" role="img" aria-label="লিঙ্গ অনুপাত মঠবাড়িয়া">পুরুষ: ১২৮৮৪৫ | মহিলা: ১৩৩৯৯৬</canvas>
+      </div>
+    </div>
+    <div class="card">
+      <p class="section-title">ধর্ম অনুযায়ী (২০১১)</p>
+      <div class="bar-row"><span class="bar-label">মুসলিম</span><div class="bar-track"><div class="bar-fill" style="width:89.9%;background:#1D9E75;"></div></div><span class="bar-pct">৮৯.৯%</span></div>
+      <div class="bar-row"><span class="bar-label">হিন্দু</span><div class="bar-track"><div class="bar-fill" style="width:10%;background:#EF9F27;"></div></div><span class="bar-pct">১০.০%</span></div>
+      <div class="bar-row"><span class="bar-label">বৌদ্ধ</span><div class="bar-track"><div class="bar-fill" style="width:0.05%;background:#7F77DD;"></div></div><span class="bar-pct">০.০৫%</span></div>
+      <div class="bar-row"><span class="bar-label">খ্রিষ্টান</span><div class="bar-track"><div class="bar-fill" style="width:0.01%;background:#D85A30;"></div></div><span class="bar-pct">০.০১%</span></div>
+      <p style="font-size:12px;color:var(--color-text-secondary);margin:12px 0 4px;">মোট: মুসলিম ২,৩৬,৩৪৪ | হিন্দু ২৬,৩০৭ | বৌদ্ধ ১৩৭ | খ্রিষ্টান ২৬</p>
+      <p style="font-size:12px;color:#EF9F27;font-weight:500;margin:0;">⚠️ পিরোজপুরে হিন্দু সম্প্রদায় দেশভাগের পর থেকে ক্রমশ হ্রাস পাচ্ছে।</p>
+    </div>
+  </div>
+
+  <div class="card section">
+    <p class="section-title">বয়স বিভাজন (আনুমানিক)</p>
+    <div class="grid2" style="gap:1rem;">
+      <div>
+        <div class="bar-row"><span class="bar-label">০–৫ বছর (২০২২)</span><div class="bar-track"><div class="bar-fill" style="width:46.7%;background:#E24B4A;"></div></div><span class="bar-pct">৯.৩৪%</span></div>
+        <div class="bar-row"><span class="bar-label">০–১০ বছর (২০১১)</span><div class="bar-track"><div class="bar-fill" style="width:100%;background:#185FA5;"></div></div><span class="bar-pct">২২.১৫%</span></div>
+        <div class="bar-row"><span class="bar-label">১১–১৮ বছর</span><div class="bar-track"><div class="bar-fill" style="width:80%;background:#378ADD;"></div></div><span class="bar-pct">~১৮%</span></div>
+        <div class="bar-row"><span class="bar-label">১৯–৩৫ বছর</span><div class="bar-track"><div class="bar-fill" style="width:96%;background:#1D9E75;"></div></div><span class="bar-pct">~২৪%</span></div>
+        <div class="bar-row"><span class="bar-label">৩৬–৫৯ বছর</span><div class="bar-track"><div class="bar-fill" style="width:96%;background:#EF9F27;"></div></div><span class="bar-pct">~২৪%</span></div>
+        <div class="bar-row"><span class="bar-label">৬০+ বছর</span><div class="bar-track"><div class="bar-fill" style="width:50%;background:#888780;"></div></div><span class="bar-pct">~১২%</span></div>
+      </div>
+      <div>
+        <p style="font-size:12px;font-weight:500;color:var(--color-text-secondary);margin:0 0 8px;">১১টি ইউনিয়ন পরিষদ:</p>
+        <div style="display:flex;flex-wrap:wrap;gap:4px;">
+          <span class="tag" style="background:#E6F1FB;color:#0C447C;">মঠবাড়িয়া পৌরসভা</span>
+          <span class="tag" style="background:#EAF3DE;color:#27500A;">আমরাগাছিয়া</span>
+          <span class="tag" style="background:#EAF3DE;color:#27500A;">বেতমোর রাজপাড়া</span>
+          <span class="tag" style="background:#EAF3DE;color:#27500A;">বড়মাছুয়া</span>
+          <span class="tag" style="background:#EAF3DE;color:#27500A;">দৌলতখালী</span>
+          <span class="tag" style="background:#EAF3DE;color:#27500A;">ধানিসাফা</span>
+          <span class="tag" style="background:#EAF3DE;color:#27500A;">গুলিসাখালী</span>
+          <span class="tag" style="background:#EAF3DE;color:#27500A;">মঠবাড়িয়া</span>
+          <span class="tag" style="background:#EAF3DE;color:#27500A;">মিরুখালী</span>
+          <span class="tag" style="background:#EAF3DE;color:#27500A;">সাপলেজা</span>
+          <span class="tag" style="background:#EAF3DE;color:#27500A;">তুষখালী</span>
+          <span class="tag" style="background:#EAF3DE;color:#27500A;">টিকিকাটা</span>
+        </div>
+        <p style="font-size:12px;color:var(--color-text-secondary);margin:10px 0 0;">শহরে বাসিন্দা: ২২.৭৬% (২০১১) → ১৫.৪০% (২০২২)</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- EDUCATION TAB -->
+<div id="tab-education" class="tab-section">
+  <div style="background:#E1F5EE;border-radius:var(--border-radius-md);padding:0.6rem 1rem;margin-bottom:1rem;border:0.5px solid #5DCAA5;">
+    <p style="font-size:12px;color:#085041;margin:0;">📈 সাক্ষরতা ২০১১ সালের ৬১.৭% থেকে ২০২২ সালে ৮৪.৯৫%-এ উন্নীত হয়েছে — উল্লেখযোগ্য অগ্রগতি।</p>
+  </div>
+  <div class="grid4 section">
+    <div class="metric"><p class="metric-label">সাক্ষরতা (২০২২)</p><p class="metric-val">৮৪.৯৫%</p></div>
+    <div class="metric"><p class="metric-label">পুরুষ সাক্ষরতা (২০২২)</p><p class="metric-val">৮৪.৮৯%</p></div>
+    <div class="metric"><p class="metric-label">মহিলা সাক্ষরতা (২০২২)</p><p class="metric-val">৮৫.০০%</p></div>
+    <div class="metric"><p class="metric-label">সাক্ষরতা (২০১১)</p><p class="metric-val">৬১.৭%</p></div>
+  </div>
+
+  <div class="card section">
+    <p class="section-title">সাক্ষরতার ধারা (তুলনামূলক)</p>
+    <div class="bar-row"><span class="bar-label">মঠবাড়িয়া (২০২২)</span><div class="bar-track"><div class="bar-fill" style="width:84.95%;background:#1D9E75;"></div></div><span class="bar-pct">৮৪.৯৫%</span></div>
+    <div class="bar-row"><span class="bar-label">পিরোজপুর জেলা</span><div class="bar-track"><div class="bar-fill" style="width:64.9%;background:#185FA5;"></div></div><span class="bar-pct">৬৪.৯%</span></div>
+    <div class="bar-row"><span class="bar-label">মঠবাড়িয়া (২০১১)</span><div class="bar-track"><div class="bar-fill" style="width:61.7%;background:#378ADD;"></div></div><span class="bar-pct">৬১.৭%</span></div>
+    <div class="bar-row"><span class="bar-label">জাতীয় গড় (২০১১)</span><div class="bar-track"><div class="bar-fill" style="width:51.8%;background:#888780;"></div></div><span class="bar-pct">৫১.৮%</span></div>
+  </div>
+
+  <div class="grid2 section">
+    <div class="card">
+      <p class="section-title">শিক্ষা প্রতিষ্ঠান</p>
+      <div class="info-row"><span style="color:var(--color-text-secondary);">কলেজ</span><span style="font-weight:500;">২টি</span></div>
+      <div class="info-row"><span style="color:var(--color-text-secondary);">মাধ্যমিক বিদ্যালয়</span><span style="font-weight:500;">৩৫টি</span></div>
+      <div class="info-row"><span style="color:var(--color-text-secondary);">প্রাথমিক বিদ্যালয়</span><span style="font-weight:500;">১৫৮টি</span></div>
+      <div class="info-row"><span style="color:var(--color-text-secondary);">মাদ্রাসা</span><span style="font-weight:500;">১৮২টি</span></div>
+      <div class="info-row"><span style="color:var(--color-text-secondary);">পাবলিক লাইব্রেরি</span><span style="font-weight:500;">৫টি</span></div>
+      <div class="info-row"><span style="color:var(--color-text-secondary);">ক্লাব</span><span style="font-weight:500;">১৯টি</span></div>
+    </div>
+    <div class="card">
+      <p class="section-title">উল্লেখযোগ্য শিক্ষা প্রতিষ্ঠান</p>
+      <div class="info-row"><span style="color:var(--color-text-secondary);">মঠবাড়িয়া সরকারি ডিগ্রি কলেজ</span><span style="font-weight:500;font-size:11px;">সরকারি</span></div>
+      <div class="info-row"><span style="color:var(--color-text-secondary);">মহিউদ্দিন মহিলা কলেজ</span><span style="font-weight:500;font-size:11px;">মহিলা</span></div>
+      <div class="info-row"><span style="color:var(--color-text-secondary);">কেএম লতিফ ইনস্টিটিউশন</span><span style="font-weight:500;">১৯২৮</span></div>
+      <div class="info-row"><span style="color:var(--color-text-secondary);">নলী ভীম চন্দ্র মাধ্যমিক বিদ্যালয়</span><span style="font-weight:500;">১৯২৮</span></div>
+      <div class="info-row"><span style="color:var(--color-text-secondary);">গুলিসাখালী জিকে ইউনিয়ন হাই স্কুল</span><span style="font-weight:500;font-size:11px;">সক্রিয়</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- AGRICULTURE TAB -->
+<div id="tab-agriculture" class="tab-section">
+  <div class="grid2 section">
+    <div class="card">
+      <p class="section-title">জমির মালিকানা</p>
+      <div class="bar-row"><span class="bar-label">জমির মালিক</span><div class="bar-track"><div class="bar-fill" style="width:65.16%;background:#1D9E75;"></div></div><span class="bar-pct">৬৫.১৬%</span></div>
+      <div class="bar-row"><span class="bar-label">ভূমিহীন</span><div class="bar-track"><div class="bar-fill" style="width:34.84%;background:#E24B4A;"></div></div><span class="bar-pct">৩৪.৮৪%</span></div>
+      <p style="font-size:12px;color:var(--color-text-secondary);margin:10px 0 4px;">শহর: ৫৪.০৪% মালিক | গ্রাম: ৬৬.৩২% মালিক</p>
+      <p style="font-size:12px;color:#1D9E75;font-weight:500;margin:0;">✅ কলাপাড়ার (৪১.৫৩% ভূমিহীন) তুলনায় এখানে কৃষক অবস্থান ভালো।</p>
+    </div>
+    <div class="card">
+      <p class="section-title">প্রধান ফসল ও ফল</p>
+      <p style="font-size:12px;font-weight:500;color:var(--color-text-secondary);margin:0 0 6px;">প্রধান ফসল:</p>
+      <div style="display:flex;flex-wrap:wrap;gap:4px;margin-bottom:10px;">
+        <span class="tag" style="background:#EAF3DE;color:#27500A;">ধান</span>
+        <span class="tag" style="background:#EAF3DE;color:#27500A;">গম</span>
+        <span class="tag" style="background:#EAF3DE;color:#27500A;">আখ</span>
+        <span class="tag" style="background:#EAF3DE;color:#27500A;">ডাল</span>
+        <span class="tag" style="background:#EAF3DE;color:#27500A;">সবজি</span>
+      </div>
+      <p style="font-size:12px;font-weight:500;color:var(--color-text-secondary);margin:0 0 6px;">প্রধান ফল:</p>
+      <div style="display:flex;flex-wrap:wrap;gap:4px;margin-bottom:10px;">
+        <span class="tag" style="background:#FAEEDA;color:#633806;">আম</span>
+        <span class="tag" style="background:#FAEEDA;color:#633806;">নারিকেল</span>
+        <span class="tag" style="background:#FAEEDA;color:#633806;">কাঁঠাল</span>
+        <span class="tag" style="background:#FAEEDA;color:#633806;">কলা</span>
+        <span class="tag" style="background:#FAEEDA;color:#633806;">সুপারি</span>
+        <span class="tag" style="background:#FAEEDA;color:#633806;">আমড়া</span>
+      </div>
+      <p style="font-size:12px;font-weight:500;color:var(--color-text-secondary);margin:0 0 4px;">প্রধান রপ্তানি পণ্য:</p>
+      <div style="display:flex;gap:4px;flex-wrap:wrap;">
+        <span class="tag" style="background:#E1F5EE;color:#085041;">সুপারি</span>
+        <span class="tag" style="background:#E1F5EE;color:#085041;">নারিকেল</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card section">
+    <p class="section-title">প্রায় বিলুপ্ত ফসল</p>
+    <div style="display:flex;flex-wrap:wrap;gap:6px;">
+      <span class="tag" style="background:#FCEBEB;color:#501313;">পান পাতা</span>
+      <span class="tag" style="background:#FCEBEB;color:#501313;">পাট</span>
+      <span class="tag" style="background:#FCEBEB;color:#501313;">তিল</span>
+      <span class="tag" style="background:#FCEBEB;color:#501313;">সরিষা</span>
+    </div>
+    <p style="font-size:12px;color:var(--color-text-secondary);margin:10px 0 0;">শিল্প: আইস ফ্যাক্টরি | স'মিল | রাইস মিল</p>
+  </div>
+</div>
+
+<!-- ECONOMY TAB -->
+<div id="tab-economy" class="tab-section">
+  <div class="card section">
+    <p class="section-title">আয়ের উৎস বিভাজন</p>
+    <div style="position:relative;height:260px;">
+      <canvas id="econChart2" role="img" aria-label="মঠবাড়িয়া আয়ের উৎস">কৃষি ৫৯.৮৯%, ব্যবসা ১২.৮১%</canvas>
+    </div>
+  </div>
+
+  <div class="grid2 section">
+    <div class="card">
+      <p class="section-title">পেশার বিস্তারিত</p>
+      <div class="bar-row"><span class="bar-label">কৃষি</span><div class="bar-track"><div class="bar-fill" style="width:59.89%;background:#1D9E75;"></div></div><span class="bar-pct">৫৯.৮৯%</span></div>
+      <div class="bar-row"><span class="bar-label">ব্যবসা</span><div class="bar-track"><div class="bar-fill" style="width:12.81%;background:#185FA5;"></div></div><span class="bar-pct">১২.৮১%</span></div>
+      <div class="bar-row"><span class="bar-label">অন্যান্য</span><div class="bar-track"><div class="bar-fill" style="width:10.12%;background:#888780;"></div></div><span class="bar-pct">১০.১২%</span></div>
+      <div class="bar-row"><span class="bar-label">সেবা/চাকরি</span><div class="bar-track"><div class="bar-fill" style="width:7.10%;background:#7F77DD;"></div></div><span class="bar-pct">৭.১০%</span></div>
+      <div class="bar-row"><span class="bar-label">অকৃষি শ্রম</span><div class="bar-track"><div class="bar-fill" style="width:4.49%;background:#EF9F27;"></div></div><span class="bar-pct">৪.৪৯%</span></div>
+      <div class="bar-row"><span class="bar-label">রেমিট্যান্স</span><div class="bar-track"><div class="bar-fill" style="width:2.13%;background:#5DCAA5;"></div></div><span class="bar-pct">২.১৩%</span></div>
+      <div class="bar-row"><span class="bar-label">পরিবহন</span><div class="bar-track"><div class="bar-fill" style="width:1.86%;background:#D85A30;"></div></div><span class="bar-pct">১.৮৬%</span></div>
+    </div>
+    <div class="card">
+      <p class="section-title">বাজার ও সংগঠন</p>
+      <div class="info-row"><span style="color:var(--color-text-secondary);">হাটবাজার</span><span style="font-weight:500;">৩১টি</span></div>
+      <div class="info-row"><span style="color:var(--color-text-secondary);">মেলা</span><span style="font-weight:500;">৩টি</span></div>
+      <div class="info-row"><span style="color:var(--color-text-secondary);">প্রধান হাট</span><span style="font-weight:500;">মঠবাড়িয়া হাট, তুষখালী হাট</span></div>
+      <div class="info-row"><span style="color:var(--color-text-secondary);">প্রধান মেলা</span><span style="font-weight:500;">পহেলা বৈশাখ মেলা</span></div>
+      <p style="font-size:12px;font-weight:500;color:var(--color-text-secondary);margin:10px 0 6px;">সক্রিয় এনজিও:</p>
+      <div style="display:flex;flex-wrap:wrap;gap:4px;">
+        <span class="tag" style="background:#EEEDFE;color:#26215C;">ব্র্যাক</span>
+        <span class="tag" style="background:#EEEDFE;color:#26215C;">প্রশিকা</span>
+        <span class="tag" style="background:#EEEDFE;color:#26215C;">আশা</span>
+        <span class="tag" style="background:#EEEDFE;color:#26215C;">জুবুক</span>
+        <span class="tag" style="background:#EEEDFE;color:#26215C;">সংগ্রাম</span>
+        <span class="tag" style="background:#EEEDFE;color:#26215C;">হিডো</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- HEALTH TAB -->
+<div id="tab-health" class="tab-section">
+  <div class="grid3 section">
+    <div class="metric"><p class="metric-label">উপজেলা হাসপাতাল (বেড)</p><p class="metric-val">৫০ বেড</p></div>
+    <div class="metric"><p class="metric-label">গ্রামীণ স্বাস্থ্যকেন্দ্র</p><p class="metric-val">৪৯টি</p></div>
+    <div class="metric"><p class="metric-label">স্যাটেলাইট ক্লিনিক</p><p class="metric-val">২টি</p></div>
+    <div class="metric"><p class="metric-label">পরিবার পরিকল্পনা কেন্দ্র</p><p class="metric-val">৭টি</p></div>
+    <div class="metric"><p class="metric-label">স্যানিটারি পায়খানা</p><p class="metric-val">৫৮.২%</p></div>
+    <div class="metric"><p class="metric-label">নলকূপ থেকে পানি</p><p class="metric-val">৩৭.৩%</p></div>
+  </div>
+
+  <div class="card section">
+    <p class="section-title">পানির উৎস — বিশেষ দৃষ্টি প্রয়োজন</p>
+    <div class="bar-row"><span class="bar-label">অন্যান্য উৎস</span><div class="bar-track"><div class="bar-fill" style="width:58.2%;background:#E24B4A;"></div></div><span class="bar-pct">৫৮.২%</span></div>
+    <div class="bar-row"><span class="bar-label">নলকূপ</span><div class="bar-track"><div class="bar-fill" style="width:37.3%;background:#185FA5;"></div></div><span class="bar-pct">৩৭.৩%</span></div>
+    <div class="bar-row"><span class="bar-label">কল/পাইপ</span><div class="bar-track"><div class="bar-fill" style="width:4.5%;background:#1D9E75;"></div></div><span class="bar-pct">৪.৫%</span></div>
+    <p style="font-size:12px;color:#E24B4A;font-weight:500;margin:10px 0 0;">⚠️ ৫৮.২% মানুষ পুকুর/নদী/অন্যান্য অনিরাপদ উৎস থেকে পানি পান করেন — এটি স্বাস্থ্যঝুঁকির প্রধান কারণ।</p>
+  </div>
+
+  <div class="card section">
+    <p class="section-title">স্যানিটেশন অবস্থা</p>
+    <div class="bar-row"><span class="bar-label">স্বাস্থ্যসম্মত পায়খানা</span><div class="bar-track"><div class="bar-fill" style="width:58.2%;background:#1D9E75;"></div></div><span class="bar-pct">৫৮.২%</span></div>
+    <div class="bar-row"><span class="bar-label">অস্বাস্থ্যকর পায়খানা</span><div class="bar-track"><div class="bar-fill" style="width:40.1%;background:#EF9F27;"></div></div><span class="bar-pct">৪০.১%</span></div>
+    <div class="bar-row"><span class="bar-label">সুবিধা নেই</span><div class="bar-track"><div class="bar-fill" style="width:1.7%;background:#E24B4A;"></div></div><span class="bar-pct">১.৭%</span></div>
+  </div>
+
+  <div class="card section">
+    <p class="section-title">প্রধান স্বাস্থ্য সমস্যা</p>
+    <div class="bar-row"><span class="bar-label">পানিবাহিত রোগ</span><div class="bar-track"><div class="bar-fill" style="width:90%;background:#E24B4A;"></div></div><span class="bar-pct">অতি উচ্চ</span></div>
+    <div class="bar-row"><span class="bar-label">ডায়রিয়া / কলেরা</span><div class="bar-track"><div class="bar-fill" style="width:85%;background:#D85A30;"></div></div><span class="bar-pct">উচ্চ</span></div>
+    <div class="bar-row"><span class="bar-label">চর্মরোগ</span><div class="bar-track"><div class="bar-fill" style="width:70%;background:#EF9F27;"></div></div><span class="bar-pct">মধ্যম</span></div>
+    <div class="bar-row"><span class="bar-label">শ্বাসতন্ত্রের রোগ</span><div class="bar-track"><div class="bar-fill" style="width:65%;background:#378ADD;"></div></div><span class="bar-pct">মধ্যম</span></div>
+    <div class="bar-row"><span class="bar-label">মাতৃ ও শিশুস্বাস্থ্য</span><div class="bar-track"><div class="bar-fill" style="width:60%;background:#7F77DD;"></div></div><span class="bar-pct">মধ্যম</span></div>
+    <p style="font-size:12px;color:var(--color-text-secondary);margin:10px 0 0;">হাসপাতালের ফোন: 01769957363 | কোড: 10002058</p>
+  </div>
+</div>
+
+<!-- DISASTER TAB -->
+<div id="tab-disaster" class="tab-section">
+  <div class="card section">
+    <p class="section-title">প্রাকৃতিক দুর্যোগের ঐতিহাসিক প্রেক্ষাপট</p>
+    <div class="info-row"><span style="color:var(--color-text-secondary);">অবস্থান বৈশিষ্ট্য</span><span style="font-weight:500;">নিম্নাঞ্চল, নদীবেষ্টিত</span></div>
+    <div class="info-row"><span style="color:var(--color-text-secondary);">প্রধান নদী</span><span style="font-weight:500;">বলেশ্বরী, কচা, পনা</span></div>
+    <div class="info-row"><span style="color:var(--color-text-secondary);">ঐতিহাসিক কৃষক বিদ্রোহ</span><span style="font-weight:500;">১৮৩০–১৮৭০ (তুষখালী)</span></div>
+    <div class="info-row"><span style="color:var(--color-text-secondary);">বন্যার ঝুঁকি</span><span style="font-weight:500;">উচ্চ (প্রতি বর্ষায়)</span></div>
+    <div class="info-row"><span style="color:var(--color-text-secondary);">ঘূর্ণিঝড় ঝুঁকি</span><span style="font-weight:500;">মধ্যম থেকে উচ্চ</span></div>
+  </div>
+
+  <div class="card section">
+    <p class="section-title">প্রধান দুর্যোগ ঝুঁকি</p>
+    <div style="display:flex;flex-wrap:wrap;gap:6px;">
+      <span class="tag" style="background:#FCEBEB;color:#501313;">মৌসুমী বন্যা</span>
+      <span class="tag" style="background:#FCEBEB;color:#501313;">ঘূর্ণিঝড়</span>
+      <span class="tag" style="background:#FCEBEB;color:#501313;">জলোচ্ছ্বাস</span>
+      <span class="tag" style="background:#FAEEDA;color:#412402;">নদীভাঙন</span>
+      <span class="tag" style="background:#FAEEDA;color:#412402;">জলাবদ্ধতা</span>
+      <span class="tag" style="background:#FAEEDA;color:#412402;">পানিদূষণ</span>
+    </div>
+    <p style="font-size:12px;color:var(--color-text-secondary);margin:12px 0 0;">পিরোজপুর জেলা পশ্চিমে সুন্দরবন সংলগ্ন — বলেশ্বরী নদী বাগেরহাট থেকে পিরোজপুরকে পৃথক করেছে।</p>
+  </div>
+</div>
+
+<!-- INFRA TAB -->
+<div id="tab-infra" class="tab-section">
+  <div class="grid2 section">
+    <div class="card">
+      <p class="section-title">যোগাযোগ ব্যবস্থা</p>
+      <div class="info-row"><span style="color:var(--color-text-secondary);">পাকা রাস্তা</span><span style="font-weight:500;">১৬২ কিমি</span></div>
+      <div class="info-row"><span style="color:var(--color-text-secondary);">আধা-পাকা রাস্তা</span><span style="font-weight:500;">২০১ কিমি</span></div>
+      <div class="info-row"><span style="color:var(--color-text-secondary);">কাঁচা রাস্তা</span><span style="font-weight:500;">৬২০ কিমি</span></div>
+      <div class="info-row"><span style="color:var(--color-text-secondary);">জলপথ</span><span style="font-weight:500;">৬২ কিমি</span></div>
+      <div class="info-row"><span style="color:var(--color-text-secondary);">বিদ্যুৎ সুবিধা</span><span style="font-weight:500;">৩৪.৭% পরিবার</span></div>
+    </div>
+    <div class="card">
+      <p class="section-title">ধর্মীয় প্রতিষ্ঠান</p>
+      <div class="info-row"><span style="color:var(--color-text-secondary);">মসজিদ</span><span style="font-weight:500;">৭২০টি</span></div>
+      <div class="info-row"><span style="color:var(--color-text-secondary);">মন্দির</span><span style="font-weight:500;">২০টি</span></div>
+      <div class="info-row"><span style="color:var(--color-text-secondary);">পবিত্র স্থান</span><span style="font-weight:500;">১টি</span></div>
+      <p style="font-size:12px;color:var(--color-text-secondary);margin:10px 0 0;">উল্লেখযোগ্য: বন্দর জামি মসজিদ, সাফা জামি মসজিদ, মঠবাড়িয়া হরি মন্দির</p>
+    </div>
+  </div>
+
+  <div class="card section">
+    <p class="section-title">প্রত্নতাত্ত্বিক ঐতিহ্য ও বিশেষত্ব</p>
+    <div style="display:flex;flex-wrap:wrap;gap:6px;">
+      <span class="tag" style="background:#E6F1FB;color:#0C447C;">সোনাখালী জমিদার বাড়ি</span>
+      <span class="tag" style="background:#E6F1FB;color:#0C447C;">কুঠিবাড়ি (সাপলেজা)</span>
+    </div>
+    <p style="font-size:12px;color:var(--color-text-secondary);margin:10px 0 0;">পিরোজপুর জেলার মধ্যে মঠবাড়িয়া সবচেয়ে বড় উপজেলা (৩৪৪.২৩ কিমি² — জেলার ২৭.০১%)।</p>
+  </div>
+
+  <div class="card section">
+    <p class="section-title">সাংস্কৃতিক ও সামাজিক প্রতিষ্ঠান</p>
+    <div class="grid4">
+      <div style="text-align:center;padding:8px;border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-md);"><p style="font-size:18px;font-weight:500;margin:0;">৫</p><p style="font-size:11px;color:var(--color-text-secondary);margin:0;">পাবলিক লাইব্রেরি</p></div>
+      <div style="text-align:center;padding:8px;border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-md);"><p style="font-size:18px;font-weight:500;margin:0;">১৯</p><p style="font-size:11px;color:var(--color-text-secondary);margin:0;">ক্লাব</p></div>
+      <div style="text-align:center;padding:8px;border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-md);"><p style="font-size:18px;font-weight:500;margin:0;">১</p><p style="font-size:11px;color:var(--color-text-secondary);margin:0;">সিনেমা হল</p></div>
+      <div style="text-align:center;padding:8px;border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-md);"><p style="font-size:18px;font-weight:500;margin:0;">১</p><p style="font-size:11px;color:var(--color-text-secondary);margin:0;">থিয়েটার গ্রুপ</p></div>
+    </div>
+  </div>
+</div>
+
+<!-- Source -->
+<div style="background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:0.75rem 1rem;border:0.5px solid var(--color-border-tertiary);margin-top:0.5rem;">
+  <p style="font-size:11px;color:var(--color-text-secondary);margin:0;">📌 উৎস: BBS জনশুমারি ২০১১ ও ২০২২, Banglapedia, Wikipedia, JantaReview, Doctorspedia। মঠবাড়িয়া পিরোজপুরের সবচেয়ে বড় উপজেলা।</p>
+</div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+const isDark = matchMedia('(prefers-color-scheme: dark)').matches;
+const textColor = isDark ? '#ccc' : '#555';
+const gridColor = isDark ? 'rgba(255,255,255,0.08)' : 'rgba(0,0,0,0.07)';
+
+new Chart(document.getElementById('genderChart2'), {
+  type: 'doughnut',
+  data: {
+    labels: ['পুরুষ', 'মহিলা'],
+    datasets: [{ data: [128845, 133996], backgroundColor: ['#185FA5', '#D4537E'], borderWidth: 0 }]
+  },
+  options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => ctx.label + ': ' + ctx.parsed.toLocaleString() } } } }
+});
+
+window.econChartDrawn2 = false;
+
+function showTab(name) {
+  document.querySelectorAll('.tab-section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  event.target.classList.add('active');
+  if (name === 'economy' && !window.econChartDrawn2) {
+    window.econChartDrawn2 = true;
+    new Chart(document.getElementById('econChart2'), {
+      type: 'bar',
+      data: {
+        labels: ['কৃষি','ব্যবসা','অন্যান্য','সেবা/চাকরি','অকৃষি শ্রম','রেমিট্যান্স','পরিবহন','নির্মাণ','ধর্মীয়'],
+        datasets: [{
+          label: 'আয়ের উৎস %',
+          data: [59.89, 12.81, 10.12, 7.10, 4.49, 2.13, 1.86, 1.36, 0.24],
+          backgroundColor: ['#1D9E75','#185FA5','#888780','#7F77DD','#EF9F27','#5DCAA5','#D85A30','#D4537E','#BA7517'],
+          borderWidth: 0, borderRadius: 4
+        }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => ctx.parsed.y.toFixed(2) + '%' } } },
+        scales: {
+          x: { ticks: { color: textColor, autoSkip: false, maxRotation: 30, font: { size: 10 } }, grid: { display: false } },
+          y: { ticks: { color: textColor, callback: v => v + '%' }, grid: { color: gridColor }, max: 65 }
+        }
+      }
+    });
+  }
+}
+</script>
